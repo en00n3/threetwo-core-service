@@ -1,4 +1,4 @@
-FROM alpine:3.19
+FROM node:18.20-alpine3.19
 LABEL maintainer="Rishi Ghan <rishi.ghan@gmail.com>"
 
 # Show all node logs
