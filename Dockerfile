@@ -1,4 +1,4 @@
-FROM alpine:3.20
+FROM alpine:3.19
 LABEL maintainer="Rishi Ghan <rishi.ghan@gmail.com>"
 
 # Show all node logs
@@ -8,7 +8,7 @@ WORKDIR /core-services
 
 
 RUN apk add --update \
-    --repository http://nl.alpinelinux.org/alpine/v3.20/main \
+    --repository http://nl.alpinelinux.org/alpine/v3.19/main \
     vips-tools \
     wget \
     imagemagick \
